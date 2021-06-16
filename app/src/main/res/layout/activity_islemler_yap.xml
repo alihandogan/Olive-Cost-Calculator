@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".islemlerYap">
+
+    <TextView
+        android:id="@+id/alanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginRight="292dp"
+        android:text="Alan"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginRight="1dp"
+        android:text="Fidan gerekli!"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="1dp"
+        android:text="kg/lt gübre gerekli!!"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="1dp"
+        android:text=" lt ilaç gerekir!"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="1dp"
+        android:text=" tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="1dp"
+        android:text=" m³ su gerekir"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginRight="1dp"
+        android:text=" metre boru gerekir"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginRight="1dp"
+        android:text=" litre benzin gerekir"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginRight="1dp"
+        android:text=" litre benzin gerekir"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginRight="1dp"
+        android:text="Tl"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tohumAdeti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="Fidan"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/gübreKilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="gübre"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/ilacKilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="ilac lt"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/budamaFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="Budama"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/damlamaSuMiktari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="Su lt"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/traktorBenzin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="Benzin"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/MakineBenzin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="Benzin"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/boruMetresi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:text="Boru"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/tohumFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="Fidam"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/gubreFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="gübre"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/ilacFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="ilac"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/suFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="Su tl"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/boruFiyati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="Boru"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/benzimFiyati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="Tl"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:id="@+id/makineBenzinTl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="Tl"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic" />
+
+
+    <TextView
+        android:id="@+id/sicaklikTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:text="C"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginRight="270dp"
+        android:text="Arazinin Alanı"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="*_______________________________________*"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginRight="296dp"
+        android:text="Tohum Maliyeti"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="300dp"
+        android:text="Gübre Maliyeti"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="300dp"
+        android:text="İlaç Maliyeti"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginRight="300dp"
+        android:text="Budama Maliyeti"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="300dp"
+        android:text="Damlama Maliyeti"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="300dp"
+        android:text="Traktör Maliyet"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="635dp"
+        android:layout_marginRight="300dp"
+        android:text="Makine Maliyet"
+        android:textColor="@color/teal_700"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:text="Sıcaklık"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
